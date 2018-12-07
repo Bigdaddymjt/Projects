@@ -1,0 +1,36 @@
+/*
+ * source.cpp
+ * Student Database System
+ * Student Database System that gathers Student information such as class schedule, grades, gpa. It also gives you the option add or delete the data.
+ *  Created on: Dec 7, 2018
+ *      Author: Malik Thomas
+ */
+#include <iostream>
+#include <string>
+using namespace std;
+int main()
+{
+	string name;
+	string course;
+	string semester;
+
+	cout << "______________STUDENT DATABASE SYSTEM_______________" << endl;
+	cout << "Menu: " << endl;
+	cout << "1. Add Records" << endl;
+	cout << "2. List Records" << endl;
+	cout << "3. Modify Records" << endl;
+	cout << "4. Delete Records" << endl;
+	cout << "5. Calculate GPA" << endl;
+	cout << "Please enter your choice: "<< endl;
+	cin >> choice;
+
+	switch(choice)
+	{
+	case 1:
+		cout << "Enter full name: "<< endl;
+		getline (cin, name);
+		cout << "Enter course: " << endl;
+		getline (cin, course);
+		cout << "Enter Semester (Fall/Spring/Summer)" << endl;
+		getline (cin, semester);
+	}
