@@ -2,7 +2,6 @@
  * source.cpp
  * Student Database System
  * Student Database System that gathers Student information such as class schedule, grades, gpa. It also gives you the option add or delete the data.
- *  Created on: Dec 7, 2018
  *      Author: Malik Thomas
  */
 #include <iostream>
